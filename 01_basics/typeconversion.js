@@ -1,5 +1,6 @@
 //conversion of one data type into another data type
 
+bname = ""
 let name = "Ramesh"
 let a = "1234"
 let age = 18  
@@ -16,7 +17,7 @@ let convertednumber = Boolean(number)
 let convertedstate = String(state)
 let convertedstates = Boolean(state)
 let convertedvalue = Number(value)
-
+let convertbname = Boolean(bname)
 
 
 console.log(convertedname);   //string to number conversion of any string containing alphabets gives output as NaN (Not a Number)
@@ -27,3 +28,4 @@ console.log(convertednumber);  // number to boolean conversion gives true for 1 
 console.log(convertedstate); // undefined to string conversion gives sundefined as output (in case of undefined to number it gives NaN)
 console.log(convertedstates);   // undefined to boolean gives false as output
 console.log(convertedvalue);  // null to number conversion gives 0 as output
+console.log(convertbname);  //coversion of empty string to boolean gives false
