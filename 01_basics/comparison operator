@@ -1,0 +1,23 @@
+// console.log(2 > 1);
+// console.log(2 >= 1);
+// console.log(2 < 1);
+// console.log(2 == 1);
+// console.log(2 != 1);
+
+//comparison operator converts the operands into number before operation
+// console.log("2" > 1);
+// console.log("02" > 1);
+// here null is converted to num i.e 0
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+
+// === 
+/*here it is strict equality operator it checks the datatype of the operands if they are different 
+then it returns false, it doesnt does conversion
+*/
+console.log("2" === 2);
