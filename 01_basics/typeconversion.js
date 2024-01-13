@@ -6,12 +6,16 @@ let age = 18
 let number = 1
 let loggedininput = true
 let state;
+let value = null
 
 let convertedname = Number(name)
 let converteda = Number(a)
 let convertedage = String(age)
 let convertedloggedininput = Number(loggedininput)
 let convertednumber = Boolean(number)
+let convertedstate = String(state)
+let convertedstates = Boolean(state)
+let convertedvalue = Number(value)
 
 
 
@@ -20,3 +24,6 @@ console.log(converteda);    //string to number conversion of any numerical strin
 console.log(convertedage);   //number to string conversion of any number gives the same output
 console.log(convertedloggedininput);   //boolean to number conversion gives 1 for true and 0 for False
 console.log(convertednumber);  // number to boolean conversion gives true for 1 and false for 1
+console.log(convertedstate); // undefined to string conversion gives sundefined as output (in case of undefined to number it gives NaN)
+console.log(convertedstates);   // undefined to boolean gives false as output
+console.log(convertedvalue);  // null to number conversion gives 0 as output
