@@ -29,3 +29,5 @@ console.log(convertedstate); // undefined to string conversion gives sundefined 
 console.log(convertedstates);   // undefined to boolean gives false as output
 console.log(convertedvalue);  // null to number conversion gives 0 as output
 console.log(convertbname);  //coversion of empty string to boolean gives false
+
+console.log(bname)  //output of blanl string "" gives false
