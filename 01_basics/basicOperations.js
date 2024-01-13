@@ -30,12 +30,9 @@ console.log(typeof num5)
 // console.log(+"");  //if there is +"" then output is 0
 
 let num1, num2, num3
-
-num1 = num2 = num3 = 2 + 2   //not a professional practice
-
+num1 = num2 = num3 = 2 + 2   //it works but not a professional practice
 
 
-console.log(num1)
 let gameCounter = 100
-++gameCounter;
+++gameCounter;   //prefix
 console.log(gameCounter);
