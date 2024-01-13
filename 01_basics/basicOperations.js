@@ -34,5 +34,30 @@ num1 = num2 = num3 = 2 + 2   //it works but not a professional practice
 
 
 let gameCounter = 100
-++gameCounter;   //prefix
+++gameCounter;  
 console.log(gameCounter);
+
+
+//postfix operation (x++)
+x=4
+y=x++    //here first the original value of x will be assigned to y first i.e. 4 and then x will be incremented by 1
+console.log("Y:", y)
+console.log("X:", x)
+
+//be careful while doing it with same operands
+y2=3
+y2=y2++  //here the original value of y2 will be assigned
+console.log("Y2:", y2)
+
+
+//Postfix operation (+xx)
+x1=4
+y1=++x1   //here return the value after increment
+console.log("Y1:", y1)
+console.log("X1:", x1)
+
+
+//be careful while doing it with same operands
+x2=3
+x2=++x2  //returns the value after increment
+console.log("X2:", x2)
