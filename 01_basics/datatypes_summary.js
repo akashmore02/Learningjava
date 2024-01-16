@@ -42,4 +42,8 @@ let Bio = function()
     console.log("happy");
 }
 
+//Return type of all non primitive datatypes is Object   (For Function it returns type as Function Object)
+console.log(typeof festivals)
+console.log(typeof myObj)
+console.log(typeof Bio)
 
