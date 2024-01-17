@@ -27,7 +27,5 @@ console.log(Math.random())    //returns random no between 0 and 1
 
 //Logic for random no in dice game
 
-min =1
-max =6
-const diceno = (Math.floor(Math.random()*10) +1)
-console.log(Math.abs(max-diceno))
+const diceno = (Math.floor(Math.random()*6) +1)
+console.log(diceno)
