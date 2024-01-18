@@ -46,4 +46,3 @@ let Bio = function()
 console.log(typeof festivals)
 console.log(typeof myObj)
 console.log(typeof Bio)
-
