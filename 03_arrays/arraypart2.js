@@ -2,8 +2,8 @@
 
 let arr1 = new Array("Jai", "Shree", "Ram")
 let arr2 = new Array("Jai", "Hanuman")
-//arr1.push(arr2)
-//console.log(arr1)
+arr1.push(arr2)
+console.log(arr1)
 
 //concatenate in Array
 let catarr = arr1.concat(arr2)    //does not manipulate og array

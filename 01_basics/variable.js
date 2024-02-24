@@ -5,4 +5,4 @@ var accountholder = "Akash"   //Not preferrable because it has scope issues
 accountstate = "Mumbai"
 
 console.log(accountstate)
-console.table([ accountId, accountType, accountholder])   //here in table only the string values are printed with '
+console.table([ accountId, accountType, accountholder])   // here in table only the string values are printed with '

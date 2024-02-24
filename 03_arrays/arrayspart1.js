@@ -5,7 +5,7 @@ console.log(arr1)
 //array using object
 let arr2 = new Array(1, 2, 3, 4, 5)
 let sam = arr2.toString()   //converts array to string (1,2,3,4,5)
-//console.log(sam) 
+console.log(sam) 
 
 //console.log(sam.length)    //gives the length of the string. length also includes , sign
 
