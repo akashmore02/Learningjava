@@ -5,12 +5,15 @@ let arr2 = new Array("Jai", "Hanuman")
 arr1.push(arr2)
 console.log(arr1)
 
+
+let arr3 = new Array("Jai", "Shree", "Ram")
+let arr4 = new Array("Jai", "Hanuman")
 //concatenate in Array
-let catarr = arr1.concat(arr2)    //does not manipulate og array
+let catarr = arr3.concat(arr4)    //does not manipulate og array
 console.log(catarr)
 
 //comibing array using spread
-let catarr1 = [...arr1, ...arr2]    
+let catarr1 = [...arr3, ...arr4]    
 console.log(catarr1);
 
 
