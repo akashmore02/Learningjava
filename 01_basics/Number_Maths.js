@@ -25,7 +25,3 @@ console.log(Math.round(134.555))   //rounds off the no
 console.log(Math.random())    //returns random no between 0 and 1
 */
 
-//Logic for random no in dice game
-
-const diceno = (Math.floor(Math.random()*6) +1)
-console.log(diceno)

@@ -17,7 +17,7 @@ console.log(str3);
 
 //in case of only numbers like 1+3 or 34+23 + operator does addtion operation
 //but in case there is a string in the operation like "2" + 1 it does concatenation like 21
-// console.log("1" + 2); //here it concatenates 1 and 2 as 12
+//console.log("1" + 2); //here it concatenates 1 and 2 as 12
 // console.log(1 + "2");  //here also it concatenates 1 and 2 as 12
 // console.log("1" + 2 + 2); //here if there is a string at the start then the output becomes 122
 // console.log(1 + 2 + "2"); //here first addition of numbers 1 and 2 is done then it is concatenated with 2 so output becomes 32
