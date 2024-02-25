@@ -20,3 +20,13 @@ console.log(stud3)
 const stud4 = Object.assign({}, stud1, stud2)  //here the values of stud1 and stud2 will be stored in {} and will get printed
 console.log(stud4) 
 
+
+//object nesting
+const nest = {
+    PersonalDetails: {
+        name: "Akash"
+        Age: {
+            DOB: "10/12/2002"       }
+    }
+}
+
