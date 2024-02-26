@@ -41,6 +41,7 @@ console.log(Object.values(stud1))    //returns only values of a object in an arr
 
 
 //Instead of calling "name" key of stud1 as stud1.key we can do
+//known as object destructuring
 const {Name} = stud1
 
 console.log(Name)
