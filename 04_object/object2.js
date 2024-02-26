@@ -24,9 +24,41 @@ console.log(stud4)
 //object nesting
 const nest = {
     PersonalDetails: {
-        name: "Akash"
+        name: "Akash",
         Age: {
-            DOB: "10/12/2002"       }
+            DOB: "10/12/2002"   },
+        Wives: [1,4,5,3]    
     }
 }
 
+console.log(nest.PersonalDetails.Wives)
+console.log(nest.PersonalDetails)
+
+console.log(Object.keys(stud1))     //returns only keys of a object in an array
+console.log(Object.entries(stud1))   //returns each key and value pair of a object in the form of array
+console.log(Object.values(stud1))    //returns only values of a object in an array
+
+
+
+//Instead of calling "name" key of stud1 as stud1.key we can do
+const {Name} = stud1
+
+console.log(Name)
+
+
+console.log(stud2.hasOwnProperty("Marks"))  //check whether the object has the Marks Key in it or not
+
+
+
+//object inside an array
+Genders = [
+    {
+        Count: 2
+    },
+    {
+        First: "Male",
+        Second: "Female"
+    }
+]
+console.log(`There are only ${Genders[0].Count} Genders`)
+console.log(Genders[1])
