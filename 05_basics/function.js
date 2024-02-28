@@ -23,3 +23,36 @@ Logindetails("Akash")
 
 
 //note: return just returns value, does not print it. we need to use console log to print it
+
+
+//how to take multiple values in an function
+//using ... rest operator
+
+function Marks (...marks){
+    return marks     //stores the values as array in mark
+}
+
+console.log(Marks(50, 43, 66, 87, 98))
+
+
+//how to take values inside of an object in function
+
+const Score = {
+    Maths:  98,
+    Science: 86,
+    Marathi: 82
+}
+
+function stud_details(anyobject){
+return `The marks scored by the student in Maths, Science and Marathi are ${anyobject.Maths}, ${anyobject.Science}, ${anyobject.Marathi} respectively`
+}
+
+console.log(stud_details(Score))
+
+
+function stud1( Maths:  98, Science: 86, Marathi: 82){
+console.log(Marks are $(Maths), $(Science), $(Marathi))
+}
+
+console.log(stud1())
+
