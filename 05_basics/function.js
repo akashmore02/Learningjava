@@ -60,7 +60,3 @@ function fundedaccount(Anyarray)
 }
 
 console.log(fundedaccount(funded_acc))
-
-
-
-console.log(happy)
