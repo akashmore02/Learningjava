@@ -49,10 +49,18 @@ return `The marks scored by the student in Maths, Science and Marathi are ${anyo
 
 console.log(stud_details(Score))
 
+//how to take values inside of an array in function
 
-function stud1( Maths:  98, Science: 86, Marathi: 82){
-console.log(Marks are $(Maths), $(Science), $(Marathi))
+const funded_acc = [2000, 4556, "2 Lakhs", "Not Eligible"]
+
+function fundedaccount(Anyarray)
+{
+    console.log("The funded account is worth")
+    return Anyarray[1]
 }
 
-console.log(stud1())
+console.log(fundedaccount(funded_acc))
 
+
+
+console.log(happy)
