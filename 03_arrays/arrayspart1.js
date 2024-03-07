@@ -1,5 +1,5 @@
 //array
-let arr1 = [1, 2, 3, 4, 5]
+let arr1 = [1, 2, 3, 4, "Happy"]
 console.log(arr1)
 
 //array using object
