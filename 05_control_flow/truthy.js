@@ -3,13 +3,14 @@
 
 //falsy 0, -0, false, "", null, undefined, NaN, BigInt 0n
 
-
+//ex1
 name = "0"
 if(name)
 {
     console.log("Truthy Value");
 }
 
+//ex2
 val1 = null
 if(val1)
 {
@@ -19,7 +20,7 @@ else{
     console.log("Falsy Value");
 }
 
-
+//ex3
 val2 = undefined
 if(val2)
 {
@@ -29,7 +30,7 @@ else{
     console.log("Falsy Value");
 }
 
-
+//ex4
 val3 = ""
 if(val3)
 {
@@ -39,6 +40,7 @@ else{
     console.log("Falsy Value");
 }
 
+//ex5
 val4 = []
 if(val4)
 {
@@ -48,7 +50,7 @@ else{
     console.log("Falsy Value");
 }
 
-
+//ex6
 val5 = {}
 if(val5)
 {
@@ -58,7 +60,7 @@ else{
     console.log("Falsy Value");
 }
 
-
+//ex7
 const arr= []
 if(arr.length=== 0)
 {
