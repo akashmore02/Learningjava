@@ -34,7 +34,7 @@ const nest = {
 console.log(nest.PersonalDetails.Wives)
 console.log(nest.PersonalDetails)
 
-console.log(Object.keys(stud1))     //returns only keys of a object in an array
+console.log(Object.keys(stud1))     //returns only keys of a object in an array and the datatype of keys is string
 console.log(Object.entries(stud1))   //returns each key and value pair of a object in the form of array
 console.log(Object.values(stud1))    //returns only values of a object in an array
 
