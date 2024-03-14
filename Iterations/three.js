@@ -20,9 +20,14 @@ map.set("RollNo", 24)
 console.log(map);  //print map
 
 
-for (const [key, value] of map) {   //gives the values of key and value
+for (const key of map) {   //gives the array of key and value
+    console.log(key);
+}
+
+for (const [key, value] of map) {   //[] destructures the arrays and lets us access the value in the oject individually
     console.log(key, value);
 }
+
 
 /*  javascript objects does not iterate
     let studdetail = {
@@ -35,3 +40,4 @@ for (const [key, value] of studdetail) {
     console.log("The student details are")
     console.log(key, value)
 }
+*/
