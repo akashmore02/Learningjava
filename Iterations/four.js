@@ -15,7 +15,7 @@ console.log(enemies[data])
 
 
 //for each very imp 
-
+//to extract data from a array containing objects (Industry Based)
 arr1 = [{
     name: "Akash",
     Age: 21
@@ -29,7 +29,23 @@ arr1 = [{
     Age: 28
     }]
 
+   //way1     preferred
     arr1.forEach((index) => {
-        console.log(index.name)
-        console.log(index.Age)
+    console.log(index.name)
+    console.log(index.Age)
     });
+
+    //way2
+    function stddata(value){
+        console.log(value.name)
+        console.log(value.Age)
+
+    }
+    arr1.forEach((stddata))
+
+
+
+    //way3 not preferred
+    for (const key in arr1) {
+      console.log(arr1[key].name)
+    }
