@@ -1,4 +1,4 @@
-//map
+//map is used to perform all types of operations
 let mynumbers = [1,2,3,4,5,6,7,8,9,10]
 
 let MyNums = mynumbers.map((num)=> num*10)
@@ -35,15 +35,12 @@ let ShopData = [
 
 //let MyCart = ShopData.map((val)=> val.BookPrice)
 //console.log(MyCart)
-
-//let MyCart = ShopData.map((val)=> val.BookName )
-//console.log(MyCart)
-
-let MyCart = ShopData.filter((val)=> {
-    if(val.BookPrice>=300)
+arr1 =[]
+MyCart = ShopData.map((val)=> {
+    if(val.BookPrice>300 && val.BookReview>4)
     {
-        return val.BookName
+        arr1.push(val.BookName)
     }
 })
+console.log(arr1)
 
-console.log(MyCart);

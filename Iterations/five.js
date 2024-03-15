@@ -4,6 +4,8 @@ let mynumbers = [1,2,3,4,5,6,7,8,9,10]
 //it stores the output in an array
 //in most cases returns the whole object in case of any conditional statement
 
+//filter helps in filtering out asked data and storing it in array
+
 let MyNum  = mynumbers.filter((num) => num>=5)        //gives implicit return
 console.log(MyNum);
 
@@ -44,3 +46,13 @@ let ShopData = [
 
 let MyCart  = ShopData.filter((val) => val.BookPrice>=250 && val.BookReview>4)        //gives implicit return
 console.log(MyCart);
+
+
+let MyBag = ShopData.filter((val)=> {
+    if(val.BookPrice>=300)
+    {
+        return val.BookName
+    }
+})
+
+console.log(MyBag);
