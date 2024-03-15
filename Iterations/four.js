@@ -49,3 +49,4 @@ arr1 = [{
     for (const key in arr1) {
       console.log(arr1[key].name)
     }
+
